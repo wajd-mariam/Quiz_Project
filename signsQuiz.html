@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="eng">
+    <head>
+        <title>Signs Test</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="Styles/signsQuiz_styles.css" rel="styleSheet" type="text/css" >
+        <script defer src="js/signsQuizScript.js"></script>
+    </head>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Test</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <p id="currentQuiz" class="hide1">signsQuiz.html</p>
+        <div class="container">
+            <div id="title">
+                <h2>Welcome to Traffic Signs Test!</h2>
+            </div>
+            <div id="question-container" class="hide1">
+                <p id="questions" class="questionsText"></p>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                </div>
+                <div id="correction" class="correction hide1">
+                    <p>correction</p>
+                </div>
+            </div>
+            <p id="progressText" class="progressText"></p>            
+            <div id="image" class= "images"></div>
+            <div class="controls">
+                <button id="startButton" class="start-btn">Start Quiz!</button>
+            </div>
+        </div>
+    </body>
+</html>

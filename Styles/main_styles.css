@@ -1,0 +1,95 @@
+.nav-wrapper{
+    background-color: blue;
+}
+
+.brand-logo{
+    margin-left: 2cm;
+}
+
+
+/* Ace your... text decorations */
+h2{
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2cm;
+    font-size: 1.2cm;
+    color: #202020;
+}
+
+/* Welcome Box*/
+.Welcome_area{
+    width: fit-content;
+    height: 400px;
+    margin: auto;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+
+/* 'Please enter your name': (Home Page)" */
+.name_request{
+    padding: 1px;
+    margin-top: 0.06cm;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Name text box (Home Page) */
+.text_box{
+    margin: auto;
+    margin-top: 10cm;
+    border-radius: 20px;
+    border: none;
+}
+
+/* 'Select your vehicle:' (Home Page) */
+.vehicle_options{
+    margin-top: 0.3cm;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* car button (Home Page) */
+.car-button{
+    margin-top: 0.05cm;
+    margin-left: 4.8cm;
+    margin-right: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 300; 
+    text-align: center;
+    color:#ffffff;
+    background-color: #99cc00;
+    border: none;
+    border-radius: 20px;
+}
+
+/* car button hover (Home Page) */
+.car-button:hover{
+    color: black;
+    border-color: black;
+    transition: 0.3s;
+}
+
+/* motorcycle button (Home Page) */
+.motorcycle-button{
+    margin-top: 0.05cm;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 300;
+    color:#ffffff;
+    background-color: #99cc00;
+    border: none;
+    border-radius: 20px;
+}
+
+/* motorcycle button hover (Home Page) */
+.motorcycle-button:hover{
+    color: black;
+    border-color: black;
+    transition: 0.3s;
+}

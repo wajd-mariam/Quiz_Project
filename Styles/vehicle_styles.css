@@ -1,0 +1,104 @@
+/* Navigation Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* Brand logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+
+/* Car Choice box */
+.Car_Choice{
+    width: 500px;
+    height: 420px;
+    margin: auto;
+    background-color: #ff6666;
+    border-radius: 10px;
+}
+
+/* Motorcycle Choice box */
+.Motorcycle_Choice{
+    width: 500px;
+    height: 420px;
+    margin: auto;
+    background-color: #ffff66;
+    border-radius: 10px;
+}
+
+
+/* Welcome to Motorcycle quiz.. text decorations */
+h1{
+    padding: 1cm;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5cm;
+    font-size: 1.0cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* Welcome to Car quiz.. text decorations */
+h2{
+    padding: 1cm;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5cm;
+    font-size: 1.0cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Please choose one ... text decorations */
+p{
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* Signs quiz button */
+.signs-button{
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 0.8cm;
+    margin-left: 2.5cm;
+}
+
+/* Signs quiz button hover */
+.signs-button:hover {
+    background-color: #001b75;
+    color: white;
+}
+
+/* Traffic Rules quiz button */
+.traffic-button{
+    background-color: rgb(0, 0, 0); /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 1cm;
+}
+
+/* Signs quiz button hover */
+.traffic-button:hover {
+    background-color: red;
+    color: white;
+}

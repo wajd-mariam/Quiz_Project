@@ -1,0 +1,140 @@
+/* Top Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+/* (signsQuiz.html) */
+/* Container (signsTest.html) */
+.container{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: 1000px;
+    height: 600px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+/* Welcome to Traffic... text decorations (signsQuiz.html)*/
+h2{
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2cm;
+    font-style: normal;
+    font-size: 1.2cm;
+    color: #202020;
+    padding: 20px 20px;
+}
+
+/* Question text (signsQuiz.html)*/
+.questionsText{
+    margin-left: 1.75cm;
+    padding: 10px 20px;
+    font-size: 0.75cm;
+    font-weight: 500;
+}
+
+/* Controls (Start Quiz) (signsQuiz.html) */
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+/* "Start Quiz" button (signsQuiz.html) */
+.start-btn {
+    margin-top: 3.6cm;
+    height: 2cm;
+    width: max-content;
+    font-size: 1cm;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    padding: 10px 20px;
+}
+
+/* General Choices buttons (signsQuiz.html)*/
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-left: 4.5rem;
+    height: 2cm;
+    width: 50%;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    gap: 10px;
+}
+
+/* Choice buttons hover affects (signsQuiz.html)*/
+.choice-container:hover{
+    cursor: pointer;
+    background-color: #b3b3ff;
+    transition: 0.3ms;
+}
+
+/* Choice buttons prefix (signsQuiz.html)*/
+.choice-prefix {
+    padding: 10px 10px;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+
+/* Choice buttons text (signsQuiz.html)*/
+.choice-text{
+    padding:10px;
+    font-size: medium;
+    width: 100%;
+    padding:10px 10px;
+}
+
+/* hide option (signsQuiz.html)*/
+.hide1 {
+    display: none;
+}
+
+/* images displayed (signsQuiz.html) */
+.images {
+    float: right;
+    margin-top: -11cm;
+    margin-right: 20px;
+}
+
+/* Correct Class (signsQuiz.html) */
+.correct{
+    background-color:greenyellow;
+}
+
+/* Incorrect Class (signsQuiz.html) */
+.incorrect{
+    background-color:#b30000;
+}
+
+/* Progress Text "Question 1 out of 5" ... (signsQuiz.html) */
+.progressText{
+    margin-left: 2cm;
+}
+
+/* Correction Text (signsQuiz.html) */
+.correction{
+    margin-left: 2cm;
+    margin-top: 1.2cm;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* Making correct correction text green (signsQuiz.html) */
+.correctCorrection{
+    color: #00b300;
+}
+
+/* Making incorrect correction text red (signsQuiz.html)*/
+.incorrectCorrection{
+    color: red;
+}

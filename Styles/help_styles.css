@@ -1,0 +1,41 @@
+/* Navigation Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* Brand logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+
+/* Help_page box */
+.Help_Page{
+    width: 430px;
+    height: 420px;
+    margin: auto;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+
+/* Help Page... text decorations */
+h2{
+    margin-left: 10px;
+    padding: 2px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 1.5cm;
+    font-style: italic;
+    font-size: 1.2cm;
+    color: #202020;
+}
+
+/* Paragraph Decorations */
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}

@@ -1,0 +1,108 @@
+/* (finalSigns.html) */
+
+/* Top Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+/* Control Button style (Redo Quiz, Main Menu) */
+.controlsFinal{
+    text-align: center;
+    margin-top: -1.5cm;
+}
+
+
+
+/* Redo button style(finalSigns.html) */
+.redo-btn{
+    height: 1cm;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    margin: 4px 2px;
+    margin-right: 20px;
+}
+
+/* Main button style (finalSigns.html) */
+.main-btn{
+    height: 1cm;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    margin: 4px 2px;
+    margin-left: 20px;
+}
+
+/* passContainer style (finalSigns.html) */
+.passContainer{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: fit-content;
+    height: 350px;
+    background-color: #ffff00;
+    border-radius: 10px;
+    text-align: center ;
+    margin: auto;
+    border: transparent;
+}
+
+/* passTitle style (finalSigns.html) */
+.passTitle {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* passText style (finalSigns.html) */
+.passText {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+
+/* failContainer style (finalSigns.html) */
+.failContainer{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: 400px;
+    height: 410px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    text-align: center ;
+    margin: auto;
+    border: transparent; 
+}
+
+/* passTitle style (finalSigns.html) */
+.finalTitle {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* failText style (finalSigns.html) */
+.failText {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+}
+
+/* hide option (finalSigns.html)*/
+.hide1 {
+    display: none;
+}

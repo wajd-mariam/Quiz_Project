@@ -1,0 +1,160 @@
+/* Top Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+/* (trafficQuiz.html) */
+/* Container (trafficQuiz.html) */
+.container{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: 650px;
+    height: 700px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+/* Welcome to Traffic... text decorations (trafficQuiz.html)*/
+h2{
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2cm;
+    font-style: normal;
+    font-size: 1.2cm;
+    color: #202020;
+    padding: 20px 20px;
+}
+
+/* Question text (trafficQuiz.html)*/
+.questionsText{
+    margin-left: 1.75cm;
+    padding: 10px 20px;
+    font-size: 0.75cm;
+    font-weight: 500;
+}
+
+/* Controls (Start Quiz, Next) (trafficQuiz.html) */
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+/* "Start Quiz" button (trafficQuiz.html) */
+.start-btn {
+    margin-top: 3.6cm;
+    height: 2cm;
+    width: max-content;
+    font-size: 1cm;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    padding: 10px 20px;
+}
+
+/* "Next" button (trafficQuiz.html)*/
+.next-btn {
+    position: absolute;
+    right: 250px;
+    top: 640px;
+    float: right;
+    height: 1.5cm;
+    width: max-content;
+    font-size: 0.75cm;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    padding: 10px 20px;
+}
+
+/* General Choices buttons (trafficQuiz.html)*/
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-left: 4.5rem;
+    height: 2cm;
+    width: 50%;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    gap: 10px;
+}
+
+/* Choice buttons hover affects (trafficQuiz.html)*/
+.choice-container:hover{
+    cursor: pointer;
+    background-color: #b3b3ff;
+    transition: 0.3ms;
+}
+
+/* Choice buttons prefix (trafficQuiz.html)*/
+.choice-prefix {
+    padding: 10px 10px;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+
+/* Choice buttons text (trafficQuiz.html)*/
+.choice-text{
+    padding:10px;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+/* hide option (trafficQuiz.html)*/
+.hide1 {
+    display: none;
+}
+
+/* images displayed (trafficQuiz.html) */
+.images {
+    position: absolute;
+    right: 275px;
+    top: 200px;
+}
+
+/* Correct Class (trafficQuiz.html) */
+.correct{
+    background-color:greenyellow;
+}
+
+/* Incorrect Class (trafficQuiz.html) */
+.incorrect{
+    background-color:#b30000;
+}
+
+/* Progress Text "Question 1 out of 5" ... (trafficQuiz.html) */
+.progressText{
+    margin-bottom: 3cm;
+    margin-left: 11cm;
+    font-weight: 450;
+    font-size: large;
+}
+
+/* Correction Text (trafficQuiz.html) */
+.correction{
+    margin-left: 2cm;
+    margin-top: 1.4cm;
+    font-size: larger;
+    font-weight: 400;
+}
+
+/* Making correct correction text green (trafficQuiz.html) */
+.correctCorrection{
+    color:  #00b300;
+}
+
+/* Making correct correction text red (trafficQuiz.html)*/
+.incorrectCorrection{
+    color: red;
+}

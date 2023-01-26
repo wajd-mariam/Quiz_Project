@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="eng">
+    <head>
+        <title>Final</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="Styles/finalPage_styles.css" rel="styleSheet" type="text/css" >
+        <script defer src="js/finalPageScript.js"></script>
+    </head>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Test</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div id="userPass" class="passContainer hide1">
+            <h2 class="passTitle">Congratulations!</h2>
+            <p class="passText">You passed your quiz!</p>
+            <p id="passMark" class="passText"></p>
+            <p id="passName" class="passText"></p>
+        </div>
+        <div id="userFail" class="failContainer hide1">
+            <h2 class="finalTitle">Unlucky :(</h2>
+            <p class="failText">You didn't pass your quiz</p>
+            <p id="failMark" class="failText"></p>
+            <p id="failName" class="failText"></p>
+            </div>
+        <div id="controlButtons" class="controlsFinal">
+            <a>
+                <button id="redoButton" class="redo-btn hide1" onclick="referringPage()">Redo Quiz</button>
+            </a>
+            <a href="index.html">
+                <button id="mainMenuButton" class="main-btn hide1">Main Menu</button>
+            </a>
+        </div>
+    </body>
+</html>
